@@ -1,0 +1,41 @@
+ul.pagination li.active a.page {
+  background-color: #26a69a!important;
+  border-radius:2px;
+}
+
+canvas {
+ position: relative;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 4px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+ cursor: url(cur.png) ,default !important;
+ }
+
+ #toast-container {
+ top: auto !important;
+ right: auto !important;
+ bottom: 1%;
+ left:1%;
+}
+
+.checkbox-#26a69a[type="checkbox"].filled-in:checked + label:after{
+border: 2px solid #26a69a;
+background-color: #26a69a;
+}
+
+.cke_bottom {
+background: #26a69a!important;
+}
+.cke_chrome {
+  border: 1px solid #26a69a !important;
+}
+.cke_editable{
+  line-height: 0.4 !important;
+}
+strong{
+  color:green;
+  font-size:17px;
+}

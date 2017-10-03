@@ -1,0 +1,26 @@
+header,
+main,
+footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 1%;
+  left: 1%;
+}
+
+ul.pagination li.active a.page {
+  background-color: #42a5f5 !important;
+  border-radius: 2px;
+}
